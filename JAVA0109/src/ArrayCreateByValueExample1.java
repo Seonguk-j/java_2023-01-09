@@ -15,7 +15,7 @@ public class ArrayCreateByValueExample1 {
 		
 		int[] scores = {83, 90, 97};
 		int sum = 0; 
-		for(int i = 0; i < 3; i++) {
+		for(int i = 0; i < scores.length; i++) {
 			sum += scores[i];
 		}
 		System.out.println("총합 : " + sum);
