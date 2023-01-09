@@ -18,7 +18,6 @@ public class quiz_07 {
 				}
 			}
 		}
-		arr[0][0] = " ";
 		
 		while(true) {
 			System.out.print("행 인덱스 입력 : ");
